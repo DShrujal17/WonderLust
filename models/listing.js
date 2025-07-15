@@ -10,8 +10,8 @@ const listingSchema = new Schema(
         description : String,
         image : {
             type : String,
-            default : "https://unsplash.com/photos/black-sand-beach-with-imposing-mountain-range-vkrbz6xvg_Q",
-            set: (v) => v === "" ? "https://unsplash.com/photos/black-sand-beach-with-imposing-mountain-range-vkrbz6xvg_Q" : v,
+            default : "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+            set: (v) => v === "" ? "https://images.unsplash.com/photo-1507525428034-b723cf961d3e" : v,
         },
         price : Number,
         location : String,
